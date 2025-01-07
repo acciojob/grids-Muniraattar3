@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+.container{
+	max-width:600px;
+	border: 5px solid rgb(4,255,4);
+	background-color: rgb(41,0,0)
+}
+
+.row{
+	height: 200px;
+	border:  5px solid rgb(255, 188, 188)
+}
+
+.row:nth-child(1) .col-md-8:nth-child(1){
+	background-color: teal;
+	border: 2px dotted rgb(38, 28,43);
+}
+
+.row:nth-child(1) .col-6:nth-child(2){
+	background-color: thistle;
+	border: 2px dotted rgb(38, 28,43);
+}
+
+.row:nth-child(2) .col-6:nth-child(1){
+	background-color: tomato;
+	border: 2px dotted rgb(38, 28,43);
+}
+
+.row:nth-child(2) .col-6:nth-child(2){
+	background-color: turquoise;
+	border: 2px dotted rgb(38, 28,43);
+}
+
+.row:nth-child(3) .col-6:nth-child(1){
+	background-color: violet;
+	border: 2px dotted rgb(38, 28,43);
+}
+
+.row:nth-child(3) .col-6:nth-child(2){
+	background-color: yellowgreen;
+	border: 2px dotted rgb(38, 28,43);
+}
